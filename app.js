@@ -30,8 +30,16 @@ function agregarAmigo() {
         return;
     }
 
-    // Validar máximo de amigos (5)
-    if (Amigos.length >= 5) {
+    // Validar duplicados
+    if (Amigos.includes(nombre)) {          
+        alert("Ya agregaste este nombre, intenta con otro");
+        input.value = '';
+        input.focus();
+        return;
+    }   
+
+    // Validar máximo de amigos (30)
+    if (Amigos.length >= 30) {
         alert("Has alcanzado el número máximo de amigos (30)");
         input.value = '';
         input.focus();
