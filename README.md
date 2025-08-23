@@ -1,10 +1,10 @@
 # 🎲 Challenge Amigo Secreto  
 
-Este proyecto hace parte de mi formación en Lógica de Programación con Oracle y Alura. Consiste en una aplicación web para realizar un **sorteo de Amigo Secreto** 🎁 de manera sencilla y dinámica.
+Este proyecto hace parte de mi formación en Lógica de Programación con Oracle y Alura. Consiste en una aplicación web para realizar un **sorteo de Amigo Secreto** 🎁 de manera sencilla y dinámica.  
 
 ## 📌 Descripción
 
-Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto. 
+Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.   
 
 ## 🚀 Funcionalidades  
 
@@ -23,17 +23,17 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 
 ## 📂 Estructura del proyecto
 
-- `index.html` — Estructura de la página.
-- `style.css` — Estilos visuales.
-- `app.js` — Lógica de validación, gestión de la lista y sorteo.
-- `assets/` — Imágenes y recursos gráficos.
+- `index.html` — Estructura de la página.  
+- `style.css` — Estilos visuales.  
+- `app.js` — Lógica de validación, gestión de la lista y sorteo.  
+- `assets/` — Imágenes y recursos gráficos.  
 
 ## 🖥️ Uso
 
-1️⃣ Clona o descarga este repositorio.
-2️⃣ Abre el archivo `index.html` en tu navegador.
-3️⃣ Escribe los nombres de tus amigos y haz clic en "Añadir".
-4️⃣ Presiona Sortear amigo para conocer al Amigo Secreto.
+1️⃣ Clona o descarga este repositorio.  
+2️⃣ Abre el archivo `index.html` en tu navegador.  
+3️⃣ Escribe los nombres de tus amigos y haz clic en "Añadir".  
+4️⃣ Presiona Sortear amigo para conocer al Amigo Secreto.  
 
 ## 🖥️ Funcionamiento
 
@@ -50,8 +50,8 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 
 ## 🛠️ Tecnologías usadas
 
-⚡ JavaScript – Lógica del programa
-🎨 HTML & CSS – Interfaz y estilos
+⚡ JavaScript – Lógica del programa  
+🎨 HTML & CSS – Interfaz y estilos  
 
 📷 Vista previa
 
