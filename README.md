@@ -37,9 +37,9 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 
 ## 🖥️ Funcionamiento
 
-1️⃣ Ingresa nombres válidos y agrégalos a la lista.
-2️⃣ Si intentas agregar un nombre inválido, duplicado o excedes el límite, recibirás una alerta.
-3️⃣ Haz clic en "Sortear amigo" para elegir aleatoriamente un nombre de la lista.
+1️⃣ Ingresa nombres válidos y agrégalos a la lista.  
+2️⃣ Si intentas agregar un nombre inválido, duplicado o excedes el límite, recibirás una alerta.  
+3️⃣ Haz clic en "Sortear amigo" para elegir aleatoriamente un nombre de la lista.  
 
 
 ## ⚙️Requisitos
@@ -55,7 +55,7 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 
 📷 Vista previa
 
-![preview](assets\image.png)
+![](https://github.com/taniahuertas/Challenge-Amigo-Secreto/blob/main/assets/image.png)
 
 Desarrollado como parte de un desafío de lógica de programación.
   
