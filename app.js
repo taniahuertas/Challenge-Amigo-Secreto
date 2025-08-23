@@ -4,20 +4,6 @@
 
 let Amigos = [];
 
-/* Función agregar amigos y listarlos en la interfaz sin incluír alertas
-
-function agregarAmigo() {
-    const input = document.getElementById('amigo');
-    const nombre = input.value.trim();
-    if (nombre) {
-        const lista = document.getElementById('listaAmigos');
-        const li = document.createElement('li');
-        li.textContent = nombre;
-        lista.appendChild(li);
-        input.value = '';
-        input.focus();
-    } */
-
 function agregarAmigo() {
     const input = document.getElementById('amigo');
     const nombre = input.value.trim();
