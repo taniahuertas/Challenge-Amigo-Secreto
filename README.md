@@ -2,12 +2,10 @@
 
 Este proyecto hace parte de mi formación en Lógica de Programación con Oracle y Alura. Consiste en una aplicación web para realizar un **sorteo de Amigo Secreto** 🎁 de manera sencilla y dinámica.
 
----
 ## 📌 Descripción
 
 Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto. 
 
----
 ## 🚀 Funcionalidades  
 
 ✔️ **Agregar amigos**  
@@ -23,7 +21,6 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 - Requiere al menos **3 nombres** para poder sortear 🚨.  
 - Muestra en pantalla el nombre elegido ⭐.  
 
----
 ## 📂 Estructura del proyecto
 
 - `index.html` — Estructura de la página.
@@ -31,7 +28,6 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 - `app.js` — Lógica de validación, gestión de la lista y sorteo.
 - `assets/` — Imágenes y recursos gráficos.
 
----
 ## 🖥️ Uso
 
 1️⃣ Clona o descarga este repositorio.
@@ -39,14 +35,12 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 3️⃣ Escribe los nombres de tus amigos y haz clic en "Añadir".
 4️⃣ Presiona Sortear amigo para conocer al Amigo Secreto.
 
----
 ## 🖥️ Funcionamiento
 
 1️⃣ Ingresa nombres válidos y agrégalos a la lista.
 2️⃣ Si intentas agregar un nombre inválido, duplicado o excedes el límite, recibirás una alerta.
 3️⃣ Haz clic en "Sortear amigo" para elegir aleatoriamente un nombre de la lista.
 
----
 
 ## ⚙️Requisitos
 
@@ -54,7 +48,6 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 - Editor de código (Visual Studio Code recomendado) 🖥️  
 - Conocimientos básicos de **JavaScript** 📘 
 
----
 ## 🛠️ Tecnologías usadas
 
 ⚡ JavaScript – Lógica del programa
@@ -62,9 +55,8 @@ Crea una lista de hasta 30 amigos y adivina quién es el amigo secreto.
 
 📷 Vista previa
 
-![alt text](assets\image.png)
+![preview](assets\image.png)
 
----
 Desarrollado como parte de un desafío de lógica de programación.
   
 
