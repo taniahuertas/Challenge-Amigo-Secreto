@@ -29,7 +29,7 @@ function agregarAmigo() {
         return;
     }
 
-      // Validar caracteres no permitidos: números, @, #, /, *, ?, !, signos de exclamación/interrogación
+    // Validar caracteres no permitidos: números, @, #, /, *, ?, !, signos de exclamación/interrogación
     const regex = /[0-9@#\/\*\?!¡¿]/;
     if (regex.test(nombre)) {
         alert("Por favor ingresa nombres válidos");
@@ -44,6 +44,16 @@ function agregarAmigo() {
         return;
     }
 
+    // Validar máximo de amigos (5)
+    if (Amigos.length >= 5) {
+        alert("Has alcanzado el número máximo de amigos (30)");
+        input.value = '';
+        input.focus();
+        return;
+    }
+
+    Amigos.push(nombre);
+    console.log("Amigos actuales:", Amigos); 
     const lista = document.getElementById('listaAmigos');
     const li = document.createElement('li');
     li.textContent = nombre;
@@ -51,3 +61,19 @@ function agregarAmigo() {
     input.value = '';
     input.focus();
 }
+
+function sortearAmigo() {
+    console.log("Intentando sortear entre:", Amigos);
+    if (Amigos.length < 3) {
+        alert("Debes agregar al menos 3 nombres para hacer el sorteo");
+        return;
+    }
+    // Elegir un nombre al azar
+    const indice = Math.floor(Math.random() * Amigos.length);
+    const nombreElegido = Amigos[indice];
+
+    // Mostrar el resultado en la interfaz
+    const resultado = document.getElementById('resultado');
+    resultado.innerHTML = `<li>El amigo secreto es: <strong>${nombreElegido}</strong></li>`;
+}
+
